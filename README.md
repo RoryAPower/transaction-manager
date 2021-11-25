@@ -1,29 +1,21 @@
 # transaction-manager
+Due to time constraints this is pretty much a first pass at this project. 
+Ideally unit tests would be included and the styling improved.  
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### Compiles javascript
 ```
 npm run build
 ```
 
-### Run your unit tests
+### run server
 ```
-npm run test:unit
+npm install -g json-server
+cd server
+json-server --watch db.json
+The server should be running on port 3000 (the base url being used by axios is http://localhost:3000/)
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
