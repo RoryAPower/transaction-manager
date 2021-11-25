@@ -9,7 +9,7 @@ npm install
 
 ### Compiles javascript
 ```
-npm run build
+npm run serve
 ```
 
 ### run server
